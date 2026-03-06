@@ -1,6 +1,7 @@
-# LAB-06: Array Methods Practice
+# 🔬 LAB 06: Function Library Building
+## Build Reusable Utility Functions
 
-**Duration:** 35 minutes  
+**Duration:** 45 minutes  
 **Points:** 4  
 **Due:** Tuesday Week 2, End of Class
 
@@ -8,60 +9,73 @@
 
 ## 🎯 LEARNING OBJECTIVES
 
-- Use array methods: map, filter, reduce
-- Transform and manipulate arrays
-- Chain array methods
-- Solve real-world problems with arrays
+Create JavaScript file with at least 10 useful utility functions demonstrating:
+- Parameters and return values
+- JSDoc documentation
+- DRY principle
+- Code organization
 
 ---
 
-## 📋 REQUIREMENTS
+## 📋 REQUIRED FUNCTIONS
 
-Create a JavaScript file demonstrating array methods:
+### String Functions (3 required)
+- `reverseString(text)` - Reverse a string
+- `countWords(text)` - Count words in text
+- `isPalindrome(text)` - Check if reads same backwards
 
-1. **Map (Transform Data):**
-   - [ ] Create array of numbers
-   - [ ] Use `map()` to double each number
-   - [ ] Log original and transformed array
+### Math Functions (3 required)
+- `isPrime(n)` - Check if number is prime
+- `factorial(n)` - Calculate factorial
+- `fibonacci(n)` - Return nth Fibonacci number
 
-2. **Filter (Select Data):**
-   - [ ] Create array of student scores
-   - [ ] Use `filter()` to get passing scores (>= 60)
-   - [ ] Log filtered results
+### Array Functions (2 required)
+- `removeDuplicates(arr)` - Remove duplicate items
+- `findMedian(numbers)` - Find median value
 
-3. **Reduce (Calculate Total):**
-   - [ ] Create array of prices
-   - [ ] Use `reduce()` to calculate total
-   - [ ] Log the total price
-
-4. **Method Chaining:**
-   - [ ] Combine map and filter in one chain
-   - [ ] Example: Get doubled values of numbers > 5
+### Validation Functions (2 required)
+- `isValidEmail(email)` - Basic email validation
+- `isValidPhone(phone)` - Basic phone validation
 
 ---
 
-## 💻 STARTER HINTS
+## 📝 STARTER TEMPLATE
 
 ```javascript
-// Map example
-const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2);
+/**
+ * Reverse a string
+ * @param {string} text - Input string
+ * @returns {string} Reversed string
+ * @example
+ * reverseString("hello"); // "olleh"
+ */
+function reverseString(text) {
+  return text.split('').reverse().join('');
+}
 
-// Filter example
-const scores = [45, 78, 92, 55, 88];
-const passing = scores.filter(score => score >= 60);
-
-// Reduce example
-const prices = [10, 20, 30];
-const total = prices.reduce((sum, price) => sum + price, 0);
+// TODO: Add 9 more functions with JSDoc
 ```
+
+---
+
+## ✅ REQUIREMENTS
+
+- [ ] At least 10 functions implemented
+- [ ] Each has JSDoc comment
+- [ ] Each has usage example
+- [ ] All functions tested
+- [ ] Code committed to Git
 
 ---
 
 ## 📤 SUBMISSION
 
-1. Create `array-methods.js` in the `LAB-06/code/` folder
-2. Complete all requirements
-3. Test with different arrays
+1. Create `function-library.js` in the `LAB-06/code/` folder
+2. Complete all 10+ functions
+3. Test each function with examples
 4. Commit and push to GitHub
 5. Check off items in `submission.md`
+
+---
+
+**You're building a professional code library!** 📚

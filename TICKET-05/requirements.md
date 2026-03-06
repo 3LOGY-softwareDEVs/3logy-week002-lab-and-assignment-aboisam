@@ -1,83 +1,58 @@
-# TICKET-05: Write User Stories
+# 📋 TICKET #05: Agile Certification Prep
 
-**Priority:** Must Have  
-**Story Points:** 2  
-**Points:** 4  
-**Due:** Monday Week 2, End of Class
-
----
-
-## 📝 USER STORY
-
-```
-As a product owner,
-I want to practice writing user stories,
-So that I can effectively communicate requirements to the development team.
-```
+**Assigned:** Monday Week 2  
+**Due:** Wednesday Week 2, 9:00 AM  
+**Worth:** 4 points
 
 ---
 
-## ✅ ACCEPTANCE CRITERIA
+## ✅ REQUIREMENTS
 
-- [ ] Write 5 user stories for any application
-- [ ] Follow proper user story format
-- [ ] Include acceptance criteria for each story
-- [ ] Apply MoSCoW prioritization
-- [ ] Estimate story points (1, 2, 3, 5, 8)
-- [ ] Document in markdown format
+### 1. Complete Agile Fundamentals Course (2.5 points)
 
----
+Choose ONE:
+- **Scrum.org:** Scrum Open Assessment
+- **Coursera:** Agile Fundamentals (free audit)
+- **Atlassian:** Agile Project Management Course
 
-## 📋 REQUIREMENTS
+Take screenshot of completion certificate
 
-**Choose ONE application type:**
-- E-commerce website
-- Social media app
-- Task management tool
-- Weather app
-- Recipe finder
+### 2. Write Summary (1 point)
 
-**For Each User Story:**
-1. Title (short description)
-2. Priority (Must/Should/Could/Won't)
-3. Story Points (effort estimate)
-4. User story statement (As a... I want... So that...)
-5. At least 3 acceptance criteria
+Write 1-page summary (300-500 words) covering:
+- 4 Agile Manifesto values
+- Key Scrum principles you learned
+- How you'll apply Agile to Sprint 01
 
----
+### 3. Create Personal Trello Board (0.5 points)
 
-## 💻 TEMPLATE
+Create Trello board for bootcamp tasks:
 
-```markdown
-## Story 1: User Login
+**Columns:**
+- To Do
+- In Progress
+- Blocked
+- Done
 
-**Priority:** Must Have  
-**Story Points:** 5
-
-**User Story:**
-As a registered user,
-I want to log in to my account,
-So that I can access my personalized content.
-
-**Acceptance Criteria:**
-- Email and password fields are required
-- Invalid credentials show error message
-- Successful login redirects to dashboard
-- "Forgot password" link is available
-- Login session persists for 30 days
-
----
-
-## Story 2: [Your Story Title]
-...
-```
+**Add cards for:**
+- All pending tickets
+- Sprint 01 project tasks
+- Study/practice items
 
 ---
 
 ## 📤 SUBMISSION
 
-1. Create `user-stories.md` in the `TICKET-05/code/` folder
-2. Document 5 complete user stories
+1. Create `agile-summary.md` in the `TICKET-05/code/` folder
+2. Include screenshot of course completion
+3. Write your summary
+4. Include link to your Trello board
+5. Commit and push to GitHub
+6. Check off items in `submission.md`
+
+---
+
+**Due Wednesday 9am - Don't procrastinate!** ⏰
 3. Include all required elements
 4. Commit and push to GitHub
 5. Check off items in `submission.md`

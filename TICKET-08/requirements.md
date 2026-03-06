@@ -1,83 +1,77 @@
-# TICKET-08: Filter and Sort Products
+# 📋 TICKET #08: Data Structure Challenges
 
-**Priority:** Must Have  
-**Story Points:** 5  
-**Points:** 4  
-**Due:** Thursday Week 2, End of Class
+**Assigned:** Thursday Week 2  
+**Due:** Sunday Week 2, 11:59 PM  
+**Worth:** 4 points
 
 ---
 
-## 📝 USER STORY
+## ✅ REQUIREMENTS
 
+Complete 15 coding challenges using arrays, objects, and sets:
+
+### Array Challenges (5)
+1. Remove duplicates from array
+2. Find second largest number
+3. Rotate array by N positions
+4. Flatten nested array
+5. Group array items by property
+
+### Object/Dictionary Challenges (5)
+6. Count character frequency in string
+7. Merge two objects
+8. Convert array to object  
+9. Find most common word in text
+10. Group students by grade
+
+### Set Challenges (3)
+11. Find intersection of two arrays
+12. Find union of two arrays
+13. Find difference of two arrays
+
+### Mixed Challenges (2)
+14. Implement basic phone book (object + array)
+15. Shopping cart with quantities (object + methods)
+
+---
+
+## 📝 STARTER TEMPLATE
+
+```javascript
+// Challenge 1: Remove duplicates
+function removeDuplicates(arr) {
+  // TODO: Return array with unique values only
+}
+
+// Challenge 2: Second largest number
+function secondLargest(numbers) {
+  // TODO: Find and return second largest
+}
+
+// TODO: Implement remaining 13 challenges
 ```
-As a shopper,
-I want to filter and sort products,
-So that I can find items that match my criteria.
-```
 
 ---
 
-## ✅ ACCEPTANCE CRITERIA
+## 📋 GRADING
 
-- [ ] Create array of product objects
-- [ ] Each product has: id, name, price, category, inStock
-- [ ] Function to filter by category
-- [ ] Function to filter by price range
-- [ ] Function to filter in-stock items
-- [ ] Function to sort by price (low to high, high to low)
-- [ ] Test all functions with sample data
+Each challenge worth ~0.27 points.
+Total: 4 points (all 15 required)
 
 ---
 
-## 📋 REQUIREMENTS
+## 📤 SUBMISSION
 
-1. **Product Structure:**
-   ```javascript
-   {
-     id: 1,
-     name: "Laptop",
-     price: 999,
-     category: "Electronics",
-     inStock: true
-   }
-   ```
-
-2. **Required Functions:**
-   - `filterByCategory(category)` - returns products in category
-   - `filterByPriceRange(min, max)` - returns products in price range
-   - `filterInStock()` - returns only available products
-   - `sortByPrice(ascending)` - sorts by price (true = low to high)
-   - `displayProducts(products)` - nicely formatted product list
-
-3. **Sample Product Data:**
-   Create at least 5 products in different categories:
-   - Electronics (Laptop, Phone)
-   - Clothing (Shirt, Shoes)
-   - Books (Novel)
+1. Create `data-challenges.js` in the `TICKET-08/code/` folder
+2. Implement all 15 solutions
+3. Add test cases for each
+4. Create `README.md` explaining your approach
+5. Commit and push to GitHub
+6. Check off items in `submission.md`
 
 ---
 
-## 💻 EXAMPLE OUTPUT
-
-```
-All Products:
-1. Laptop - $999 (Electronics) - In Stock
-2. Phone - $599 (Electronics) - In Stock
-3. Shirt - $29 (Clothing) - Out of Stock
-4. Shoes - $79 (Clothing) - In Stock
-5. Novel - $15 (Books) - In Stock
-
-Electronics:
-1. Laptop - $999
-2. Phone - $599
-
-Products $0-$100:
-1. Shirt - $29
-2. Shoes - $79
-3. Novel - $15
-
-In Stock Items:
-1. Laptop - $999
+**Master data structures = Master programming!** 💾
 2. Phone - $599
 3. Shoes - $79
 4. Novel - $15

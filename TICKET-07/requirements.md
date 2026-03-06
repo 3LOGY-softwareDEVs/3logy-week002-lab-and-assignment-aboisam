@@ -1,83 +1,77 @@
-# TICKET-07: Student Records System
+# 📋 TICKET #07: Debug Portfolio
 
-**Priority:** Must Have  
-**Story Points:** 5  
-**Points:** 4  
-**Due:** Wednesday Week 2, End of Class
+**Assigned:** Wednesday Week 2  
+**Due:** Friday Week 2, 5:00 PM  
+**Worth:** 4 points
 
 ---
 
-## 📝 USER STORY
+## ✅ REQUIREMENTS
 
+### 1. Fix 10 Buggy Code Samples (2.5 points)
+
+Download buggy code samples from Discord.
+
+For each:
+- Identify bug type
+- Fix the error
+- Explain your debugging process
+- Test fixed version
+
+### 2. Create Debugging Checklist (1 point)
+
+Based on your experience, create personal debugging checklist:
+- Common mistakes you make
+- Debugging strategies that work for you
+- Resources to check when stuck
+
+### 3. Document Your Process (0.5 points)
+
+Write short reflection:
+- What was hardest to debug?
+- What strategies worked best?
+- How will you debug differently in future?
+
+---
+
+## 📝 DEBUGGING TEMPLATE
+
+```markdown
+## Bug #1: [Bug Type]
+
+**Original Code:**
+```javascript
+// Buggy code here
 ```
-As a teacher,
-I want to manage student records,
-So that I can track student information and grades.
+
+**Problem:**
+Explanation of what was wrong
+
+**Fixed Code:**
+```javascript
+// Fixed code here
 ```
 
----
-
-## ✅ ACCEPTANCE CRITERIA
-
-- [ ] Create array of student objects
-- [ ] Each student has: id, name, age, grades (array), gpa
-- [ ] Function to add new student
-- [ ] Function to calculate GPA
-- [ ] Function to find student by id
-- [ ] Function to get honor roll students (GPA >= 3.5)
-- [ ] Test all functions
-
----
-
-## 📋 REQUIREMENTS
-
-1. **Student Structure:**
-   ```javascript
-   {
-     id: 1,
-     name: "Alice Johnson",
-     age: 20,
-     grades: [85, 92, 78, 95],
-     gpa: 0  // Will be calculated
-   }
-   ```
-
-2. **Required Functions:**
-   - `addStudent(name, age, grades)` - adds student and calculates GPA
-   - `calculateGPA(grades)` - converts grades to 4.0 scale
-   - `findStudent(id)` - returns student object
-   - `getHonorRoll()` - returns students with GPA >= 3.5
-
-3. **GPA Calculation:**
-   - 90-100 = 4.0
-   - 80-89 = 3.0
-   - 70-79 = 2.0
-   - 60-69 = 1.0
-   - Below 60 = 0.0
-
----
-
-## 💻 EXAMPLE OUTPUT
-
-```
-Students:
-1. Alice Johnson (Age 20) - GPA: 3.5
-2. Bob Smith (Age 21) - GPA: 3.8
-3. Carol Davis (Age 19) - GPA: 2.5
-
-Honor Roll Students:
-- Alice Johnson (GPA: 3.5)
-- Bob Smith (GPA: 3.8)
-
-Found Student: Alice Johnson
+**Debugging Process:**
+- Step 1: Read error message
+- Step 2: Identified issue was...
+- Step 3: Fixed by...
 ```
 
 ---
 
-## 🧪 TESTING
+## 📤 SUBMISSION
 
-Create at least 3 students with different GPAs:
-- [ ] One honor roll student (GPA >= 3.5)
+1. Create `debug-portfolio.md` in the `TICKET-07/code/` folder
+2. Document all 10 bug fixes
+3. Create `debugging-checklist.md`
+4. Write reflection
+5. Commit and push to GitHub
+6. Check off items in `submission.md`
+
+---
+
+**Become a debugging master!** 🐛
 - [ ] One regular student (GPA < 3.5)
 - [ ] Test findStudent() with valid id
 - [ ] Test getHonorRoll() returns correct students

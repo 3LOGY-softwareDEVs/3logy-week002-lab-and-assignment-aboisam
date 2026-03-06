@@ -1,6 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AisyOya7)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22995446&assignment_repo_type=AssignmentRepo)
-# Week 2 - Agile Development & Sprint 01 Prep
+# Week 2 - Agile Development & Advanced JavaScript
 
 **Duration:** Monday-Thursday, Week 2  
 **Total Points:** 32 points (4 labs × 4 pts + 4 tickets × 4 pts)  
@@ -10,16 +8,16 @@
 
 ## 📚 OVERVIEW
 
-This week you'll learn Agile/Scrum methodologies and prepare for Sprint 01. You'll learn project management with Trello and Jira, advance your JavaScript skills, and build more complex applications.
+This week you'll learn Agile/Scrum methodologies and advance your JavaScript skills to prepare for Sprint 01. You'll learn project management with Trello and Jira, build reusable functions, master debugging, and work with complex data structures.
 
 **Topics Covered:**
-- Agile/Scrum Methodology (Monday)
-- Arrays and Loops (Tuesday)
-- Objects and Methods (Wednesday)
-- Advanced Functions (Thursday)
+- Agile/Scrum Methodology & SDLC (Monday)
+- Functions & Code Organization (Tuesday)
+- Debugging & Problem-Solving (Wednesday)
+- Data Structures: Arrays, Objects, Sets (Thursday)
 
 **Tools Introduced:**
-- Trello (Monday - Visual sprint planning)
+- Trello (Monday - Visual project planning)
 - Jira (Friday - Professional project management)
 
 ---
@@ -34,43 +32,43 @@ WEEK-02/
 │   │   └── .gitkeep
 │   └── submission.md          # Checklist before submitting
 │
-├── LAB-06/                    # Tuesday Lab - Array Methods
+├── LAB-06/                    # Tuesday Lab - Function Library Building
 │   ├── instructions.md
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── LAB-07/                    # Wednesday Lab - Object Manipulation
+├── LAB-07/                    # Wednesday Lab - Bug Hunt Challenge
 │   ├── instructions.md
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── LAB-08/                    # Thursday Lab - Higher-Order Functions
+├── LAB-08/                    # Thursday Lab - Contact Management System
 │   ├── instructions.md
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── TICKET-05/                 # Monday Ticket - User Story Template
+├── TICKET-05/                 # Monday Ticket - Agile Certification Prep
 │   ├── requirements.md        # Ticket requirements
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── TICKET-06/                 # Tuesday Ticket - Task List Manager
+├── TICKET-06/                 # Tuesday Ticket - Modular Calculator
 │   ├── requirements.md
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── TICKET-07/                 # Wednesday Ticket - Student Records
+├── TICKET-07/                 # Wednesday Ticket - Debug Portfolio
 │   ├── requirements.md
 │   ├── code/
 │   │   └── .gitkeep
 │   └── submission.md
 │
-├── TICKET-08/                 # Thursday Ticket - Filter & Sort Data
+├── TICKET-08/                 # Thursday Ticket - Data Structure Challenges
 │   ├── requirements.md
 │   ├── code/
 │   │   └── .gitkeep
@@ -176,14 +174,14 @@ For each lab/ticket:
 
 | Assignment | Points | Focus Area |
 |------------|--------|------------|
-| **LAB-05** | 4 pts | Agile concepts, sprint planning simulation |
-| **LAB-06** | 4 pts | Array methods (map, filter, reduce) |
-| **LAB-07** | 4 pts | Objects, properties, methods |
-| **LAB-08** | 4 pts | Higher-order functions, callbacks |
-| **TICKET-05** | 4 pts | User story writing practice |
-| **TICKET-06** | 4 pts | Array manipulation for task list |
-| **TICKET-07** | 4 pts | Object-based student records |
-| **TICKET-08** | 4 pts | Data filtering and sorting |
+| **LAB-05** | 4 pts | Agile concepts, sprint planning, user stories |
+| **LAB-06** | 4 pts | Function library with JSDoc documentation |
+| **LAB-07** | 4 pts | Debugging 5 broken programs |
+| **LAB-08** | 4 pts | Contact management system with data structures |
+| **TICKET-05** | 4 pts | Agile certification + Trello setup |
+| **TICKET-06** | 4 pts | Modular calculator with memory & history |
+| **TICKET-07** | 4 pts | Debug 10 code samples + reflection |
+| **TICKET-08** | 4 pts | 15 data structure coding challenges |
 | **TOTAL** | **32 pts** | |
 
 **Grading Criteria for Each Assignment:**
@@ -199,20 +197,36 @@ For each lab/ticket:
 
 | Day | Lab | Ticket | Class Time | Tools |
 |-----|-----|--------|------------|-------|
-| **Monday** | LAB-05: Agile Sim | TICKET-05: User Stories | 2:00-5:00 PM | Trello Demo |
-| **Tuesday** | LAB-06: Arrays | TICKET-06: Task List | 2:00-5:00 PM | - |
-| **Wednesday** | LAB-07: Objects | TICKET-07: Student Records | 2:00-5:00 PM | - |
-| **Thursday** | LAB-08: Higher-Order | TICKET-08: Filter/Sort | 2:00-5:00 PM | - |
-| **Friday** | Sprint 01 Kickoff | Jira Setup | 9:00-11:00 AM | Jira Demo |
+| **Monday** | LAB-05: Agile Sim | TICKET-05: Agile Cert | 2:00-5:00 PM | Trello Demo |
+| **Tuesday** | LAB-06: Functions | TICKET-06: Calculator | 2:00-5:00 PM | - |
+| **Wednesday** | LAB-07: Debugging | TICKET-07: Debug Portfolio | 9:00-11:00 AM | - |
+| **Thursday** | LAB-08: Data Structures | TICKET-08: Data Challenges | 2:00-5:00 PM | - |
+| **Friday** | Sprint 01 Kickoff | Jira Setup | 2:00-5:00 PM | Jira Demo |
 
 ---
 
 ## 🎯 IMPORTANT WEEK 2 MILESTONES
 
 ### Monday:
-- Learn Scrum/Agile methodology
-- Experience sprint planning with Trello
-- Write your first user stories
+- Learn SDLC phases and Scrum/Agile methodology
+- Experience sprint planning simulation
+- Get Agile certification
+- Set up personal Trello board
+
+### Tuesday:
+- Build reusable function library with JSDoc
+- Learn DRY principle
+- Start modular calculator project
+
+### Wednesday:
+- Master debugging strategies and error types
+- Fix multiple broken programs
+- Build debugging checklist
+
+### Thursday:
+- Work with complex data structures
+- Build contact management CLI app
+- Complete 15 data challenges
 
 ### Friday:
 - **Sprint 01 officially starts!**
@@ -275,11 +289,14 @@ For each lab/ticket:
 
 ## 🌟 PRO TIPS
 
-- **Master arrays/objects this week:** Sprint 01 requires them
-- **Write user stories properly:** Format: "As a [role], I want [feature], so that [benefit]"
-- **Experiment with array methods:** map, filter, reduce are powerful
-- **Object practice is crucial:** Most real apps use objects extensively
-- **Engage in Trello activity Monday:** Great prep for Jira
+- **Master functions this week:** Sprint 01 requires reusable, well-organized code
+- **Debugging is essential:** You'll debug your own Sprint 01 code constantly
+- **Data structures are everywhere:** Sprint 01 uses arrays and objects heavily
+- **JSDoc is professional:** Real developers document their functions
+- **Engage in Trello activity Monday:** Great prep for Jira workflow
+- **Take Agile certification seriously:** These are industry-standard practices
+- **Build a debugging checklist:** You'll use it the rest of the bootcamp
+- **Complete data challenges:** Best practice for technical interviews
 - **Attend Friday standup:** Sets the tone for Sprint 01
 
 ---

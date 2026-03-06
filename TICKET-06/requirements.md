@@ -1,83 +1,86 @@
-# TICKET-06: Task List Manager
+# 📋 TICKET #06: Modular Calculator
 
-**Priority:** Must Have  
-**Story Points:** 5  
-**Points:** 4  
-**Due:** Tuesday Week 2, End of Class
-
----
-
-## 📝 USER STORY
-
-```
-As a user,
-I want to manage my tasks,
-So that I can track what needs to be done.
-```
+**Assigned:** Tuesday Week 2  
+**Due:** Thursday Week 2, 5:00 PM  
+**Worth:** 4 points
 
 ---
 
-## ✅ ACCEPTANCE CRITERIA
+## ✅ REQUIREMENTS
 
-- [ ] Create array of task objects
-- [ ] Each task has: id, title, completed status
-- [ ] Function to add new task
-- [ ] Function to mark task as complete
-- [ ] Function to display all tasks
-- [ ] Function to display only incomplete tasks
-- [ ] Test all functions
+Build calculator with:
 
----
+### Core Operations (1.5 points)
+Separate function for each:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Exponent
+- Square root
 
-## 📋 REQUIREMENTS
+### Memory Features (1.5 points)
+- Store result in memory
+- Recall from memory
+- Clear memory
 
-1. **Task Structure:**
-   ```javascript
-   {
-     id: 1,
-     title: "Complete LAB-06",
-     completed: false
-   }
-   ```
+### History Feature (0.5 points)
+- Track last 10 operations
+- Display history
+- Clear history
 
-2. **Required Functions:**
-   - `addTask(title)` - adds new task to array
-   - `completeTask(id)` - marks task as complete
-   - `displayAllTasks()` - logs all tasks
-   - `displayIncompleteTasks()` - logs only incomplete tasks
-
-3. **Testing:**
-   - Add at least 3 tasks
-   - Mark 1 task complete
-   - Display all tasks
-   - Display incomplete tasks
+### Code Quality (0.5 points)
+- DRY principle applied
+- Functions well-organized
+- JSDoc comments
+- Git workflow (feature branches)
 
 ---
 
-## 💻 STARTER TEMPLATE
+## 📝 STARTER TEMPLATE
 
 ```javascript
-let tasks = [];
-let nextId = 1;
-
-function addTask(title) {
-  const task = {
-    id: nextId++,
-    title: title,
-    completed: false
-  };
-  tasks.push(task);
-  console.log(`Added: ${title}`);
+// Core operations
+function add(a, b) {
+  return a + b;
 }
 
-function completeTask(id) {
-  // Your code here
-  // Find task by id and set completed = true
+function subtract(a, b) {
+  return a - b;
 }
 
-function displayAllTasks() {
-  // Your code here
-  // Loop through tasks and log each one
+// TODO: Add remaining operations
+
+// Memory
+let memory = 0;
+
+function storeMemory(value) {
+  // TODO: Store value in memory
+}
+
+// History
+const history = [];
+
+function addToHistory(operation, result) {
+  // TODO: Add operation to history
+  // Keep only last 10
+}
+```
+
+---
+
+## 📤 SUBMISSION
+
+1. Create `calculator.js` in the `TICKET-06/code/` folder
+2. Implement all required features
+3. Test all operations
+4. Use at least 3 meaningful commits
+5. Commit and push to GitHub
+6. Check off items in `submission.md`
+
+---
+
+**Build a calculator you'd actually use!** 🧮
 }
 
 function displayIncompleteTasks() {
